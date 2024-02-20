@@ -223,9 +223,7 @@ ul li a:hover {
 }
 
 .wrapper{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
 }
 
 footer {
