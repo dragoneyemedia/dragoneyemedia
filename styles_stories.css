@@ -216,8 +216,6 @@ ul li a:hover {
 }
 
 .story-text {
-  display: grid;
-  place-items: center;
   font-family: league spartan;
   font-size: 25px;
   width: 50%;
