@@ -45,48 +45,46 @@
     <div class="scorestream-widget-container" data-ss_widget_type="vertScoreboard" style="height:500px; border-radius: 20px; width: 340px; overflow: hidden;" data-user-widget-id="54804"></div><script async="async" type="text/javascript" src="https://scorestream.com/apiJsCdn/widgets/embed.js"></script></div>  
     <!--Weather Widget (Coming Soon)-->
     <div class="wxwidget">
-    <script>
-      (function(d, s, id) {
-          if (d.getElementById(id)) {
-              if (window.__TOMORROW__) {
-                  window.__TOMORROW__.renderWidget();
-              }
-              return;
-          }
-          const fjs = d.getElementsByTagName(s)[0];
-          const js = d.createElement(s);
-          js.id = id;
-          js.src = "https://www.tomorrow.io/v1/widget/sdk/sdk.bundle.min.js";
+      <script>
+        (function(d, s, id) {
+            if (d.getElementById(id)) {
+                if (window.__TOMORROW__) {
+                    window.__TOMORROW__.renderWidget();
+                }
+                return;
+            }
+            const fjs = d.getElementsByTagName(s)[0];
+            const js = d.createElement(s);
+            js.id = id;
+            js.src = "https://www.tomorrow.io/v1/widget/sdk/sdk.bundle.min.js";
 
-          fjs.parentNode.insertBefore(js, fjs);
-      })(document, 'script', 'tomorrow-sdk');
-      </script>
+            fjs.parentNode.insertBefore(js, fjs);
+        })(document, 'script', 'tomorrow-sdk');
+        </script>
 
-      <div class="tomorrow"
-         data-location-id="128639"
-         data-language="EN"
-         data-unit-system="IMPERIAL"
-         data-skin="dark"
-         data-widget-type="upcoming"
-         style="padding-bottom:22px;position:relative;border-radius: 1px;"
-      >
-        <a
-          href="https://www.tomorrow.io/weather-api/"
-          rel="nofollow noopener noreferrer"
-          target="_blank"
-          style="position: absolute; bottom: 0; transform: translateX(-50%); left: 50%;"
+        <div class="tomorrow"
+           data-location-id="117668"
+           data-language="EN"
+           data-unit-system="IMPERIAL"
+           data-skin="dark"
+           data-widget-type="upcoming"
+           style="padding-bottom:22px;position:relative;"
         >
-          <img
-            class="hiddenlogo"
-            alt="Powered by the Tomorrow.io Weather API"
-            src="https://weather-website-client.tomorrow.io/img/powered-by.svg"
-            width="250"
-            height="18"
-            style="display: none;"
-          />
-        </a>
-      </div>
-    </div>
+          <a
+            href="https://www.tomorrow.io/weather-api/"
+            rel="nofollow noopener noreferrer"
+            target="_blank"
+            style="position: absolute; bottom: 0; transform: translateX(-50%); left: 50%;"
+          >
+            <img
+              alt="Powered by the Tomorrow.io Weather API"
+              src="https://weather-website-client.tomorrow.io/img/powered-by.svg"
+              width="250"
+              height="18"
+            />
+          </a>
+        </div>
+        </div>
 
 
     </div>
