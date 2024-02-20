@@ -223,8 +223,7 @@ ul li a:hover {
 }
 
 .wrapper{
-    text-align: center;
-    align-items: center;
+    padding-left: 50%;
 }
 
 footer {
