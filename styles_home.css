@@ -182,6 +182,10 @@ section{
     display: flex;
 }
 
+.font-temp{
+  font-family: league spartan;
+}
+
 .main-story{
     position: relative;
     text-align: center;
